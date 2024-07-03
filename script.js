@@ -42,8 +42,8 @@ setTimeout(() => {
   localStorage.removeItem('destination'); 
 
   if (destination === 'intro') {
-    window.location.href = "../Intro.content/intro.html"; 
+    window.location.href = "Intro.content/intro.html"; 
   } else if (destination === 'main') {
-    window.location.href = "../Main.content/main.html";
+    window.location.href = "Main.content/main.html";
   }
 }, 8000);

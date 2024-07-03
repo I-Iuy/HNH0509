@@ -41,7 +41,7 @@ function closeAlert() {
     } else {
       // Redirect user to index.html and set next destination to 'main'
       localStorage.setItem('destination', 'main');
-      window.location.href = "../Index.loading/"; // Replace with your desired URL
+      window.location.href = "../index.html"; // Replace with your desired URL
     }
   }
 }
